@@ -5,7 +5,7 @@
   services.jellyfin = {
     enable = true;
     openFirewall = true;
-    user = "phobes"; # Change/Set username (Default user is jellyfin)
+    user = "paulina"; # Change/Set username (Default user is jellyfin)
     # group = "jellyfin"; # Recommended for security reasons
   };
 
@@ -14,7 +14,7 @@
     enable = true;
     virtualHosts."localhost".extraConfig =
       ''
-        reverse_proxy http://10.0.0.32:80
+        reverse_proxy http://192.168.2.79:80
         tls internal
       '';
   };

@@ -35,7 +35,7 @@
   outputs = { self, nixpkgs, home-manager, hyprland, hyprpaper, waybar, stylix, ghostty, ... }@inputs: let
     system = "x86_64-linux";
     homeStateVersion = "24.11";
-    user = "phobes";
+    user = "paulina";
     hosts = [
       { hostname = "artemis"; stateVersion = "24.05"; }
       { hostname = "inari"; stateVersion = "24.05"; }

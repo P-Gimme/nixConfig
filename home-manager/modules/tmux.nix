@@ -5,7 +5,7 @@
     mouse = true;
     escapeTime = 0;
     keyMode = "vi";
-    shell = "/home/phobes/.nix-profile/bin/nu";
+    shell = "/home/paulina/.nix-profile/bin/nu";
     terminal = "screen-256color";
     extraConfig = ''
       # set -as terminal-features ",ghostty*:RGB"
