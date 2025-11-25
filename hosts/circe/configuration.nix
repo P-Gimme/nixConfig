@@ -7,6 +7,7 @@
     ./local.nix
     ../../nixos/core
     ../../nixos/gaming
+    ../../nixos/powerUser
     ../../nixos/server
   ];
 

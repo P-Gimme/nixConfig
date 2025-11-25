@@ -1,7 +1,7 @@
 {
   imports = [
     ./packages.nix
-    ./virtualisation.nix
+    # ./virtualisation.nix
   ];
 }
 
