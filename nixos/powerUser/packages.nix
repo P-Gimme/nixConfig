@@ -21,6 +21,7 @@
     # nil
     # nixd # Nix language server, based on nix libraries
     # rpi-imager # Raspberry Pi Imaging Utility
+    speedtest-rs # Command line internet speedtest tool written in rust
     tealdeer # Very fast implementation of tldr in Rust
     toipe # Yet another typing test, but crab flavoured
     unzip # Extraction utility for archives compressed in .zip format
