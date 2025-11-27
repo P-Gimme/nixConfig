@@ -3,7 +3,9 @@
 
   btop-rocm # Monitor of resources
   foodfetch # Yet another fetch to quickly get recipes
-  protonvpn-gui # Proton VPN GTK app for linux
+  kdePackages.k3b # Full-featured CD/DVD/Blu-ray burning and ripping application
+  handbrake # Tool for converting video files and ripping DVDs
+  brasero # Gnome CD/DVD Burner
 
   ];
 }

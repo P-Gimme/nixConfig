@@ -28,6 +28,7 @@
     openvpn # Robust and highly flexible tunneling application
     pavucontrol # PulseAudio Volume Control
     playerctl # Command-line utility and library for controlling media players that implement
+    protonvpn-gui # Proton VPN GTK app for linux
     ranger # File manager with minimalistic curses interface
     thunderbird # full-featured e-mail client
     unzip # Extraction utility for archives compressed in .zip format
