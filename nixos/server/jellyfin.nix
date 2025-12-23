@@ -5,7 +5,7 @@
   services.jellyfin = {
     enable = true;
     openFirewall = true;
-    user = "paulina"; # Change/Set username (Default user is jellyfin)
+    user = "jellyfin"; # Change/Set username (Default user is jellyfin)
     # group = "jellyfin"; # Recommended for security reasons
   };
 
@@ -24,5 +24,6 @@
     jellyfin-web # Web Client for Jellyfin
     jellyfin-ffmpeg # Complete, cross-platform solution to record, convert and stream audio and video (Jellyfin Fork)
     ffmpeg-full # Complete, cross-platofrm solution to record, convert and stream audio and video
+    ffmpegthumbnailer # Lightweight video thumbnailer
   ];
 }
