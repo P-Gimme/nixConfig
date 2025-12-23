@@ -1,27 +1,23 @@
 {
   imports = [
-    ./alacritty.nix
-    ./git.nix
+    ./eza.nix
     ./ghostty.nix
-    ./hyprland
+    ./git.nix
     ./neovim.nix
     ./nushell
-    ./obs-studio.nix
     ./ranger.nix
     ./shell.nix
     ./starship.nix
-    ./stylix.nix
-    ./swaync
     ./tmux.nix
-    ./waybar
-    ./wofi
+    ./zathura.nix
     ./zsh.nix
 
-    # ./btop.nix
-    # ./eza.nix
+    # ./hyprland
+    # ./swaync
     # ./lazygit.nix
     # ./qt.nix
-    # ./zathura.nix
-    # ./zed.nix
+    # ./stylix.nix
+    # ./waybar
+    # ./wofi
   ];
 }
