@@ -5,8 +5,8 @@
   services.jellyfin = {
     enable = true;
     openFirewall = true;
-    user = "jellyfin"; # Change/Set username (Default user is jellyfin)
-    # group = "jellyfin"; # Recommended for security reasons
+    user = "paulina"; # Change/Set to YOUR username (Default user is jellyfin)
+    group = "users"; # Recommended for security reasons
   };
 
   # Enable Caddy (Set proxy IP to YOUR host's IP) - Allows for use of server while using VPN
